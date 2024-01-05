@@ -1,0 +1,225 @@
+
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    /* font-family: url(https://fonts.google.com/specimen/Caveat); */
+font-family: 'Nunito', sans-serif;
+}
+
+.top {
+    padding-top: 3%;
+    width: 100%;
+    background-color: black;
+}
+.bottom {
+    bottom: 0;
+    padding-bottom: 7%;
+    width: 100%;
+    background-color: black;
+}
+.div1 {
+    text-align: center;
+    padding-top: 0;
+}
+header {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: black;
+    width: 100%;
+    
+}
+footer {
+    padding-left: 0;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: black;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #04AA6D; /* Green */
+  }
+.img1 {
+    width: 40;
+    height: 40; 
+    /* padding-left: 2%; */
+}
+.img22 {
+    background: url(/kodoku/imges/desp.png);
+    width: 40;
+    height: 40; 
+    /* padding-left: 2%; */
+    transition: transform 0.3s ease-in-out; 
+}
+.img22:hover {
+    transform: scale(1.1);
+    background: url(/kodoku/imges/IMG_6369.jpg);
+}
+.txt {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    font-size: 12px;
+}
+.products {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding-left: 12%; 
+    padding-top: 3%;
+}
+.products2 {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding-right: 12%; padding-top: 3%;
+}
+.soldout {
+    background-color: black;
+    color: white;
+    border-radius: 25;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.emptiness {
+    padding-left: 15%;
+    padding-top: 3%;
+}
+.emptinessimg {
+    width: 600px;
+    height: 600px;
+}
+.emptpht {
+    padding-left: 12%;
+}
+.orderbutton {
+    background-color: black;
+    border: 1px;
+    border-style: groove;
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.sizebutton {
+    background-color: inherit;
+    border: 1px;
+    border-style: groove;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.otherproducts {
+    padding-left: 12%;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 12%;
+
+}
+.size {
+    display: flex;
+    padding-left: 12%;
+}
+
+  
+  /* input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  } */
+  
+.deliverypage {
+    padding-left: 15%;
+}
+/* select {
+    height: 32px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+
+  } */
+  .form-group {
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  input, textarea {
+    width: 241px;
+    height: 30px;
+    padding-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  select {
+    padding-left: 3px;
+    width: 500px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    appearance: none;
+  }
+  
+  label {
+    position: absolute;
+    left: 3px;
+    top: 14px;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+    color: #888;
+  }
+  
+  select:focus,
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: black;
+  }
+  
+  input:focus + label,
+  input:not(:placeholder-shown) + label,
+  textarea:focus + label,
+  textarea:not(:placeholder-shown) + label {
+    top: 0px;
+    left: 2px;
+    font-size: 12px;
+    color:#d3d3d3;
+  }
+.products_page_payment {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+}

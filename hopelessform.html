@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>kodoku</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:ital,wght@0,300;0,600;0,800;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header1">
+        <div class="div1"><img src="imges/qqew.png" alt="" width="120" height="50"></div>
+        <a href="index1.html" style="color: white;">home</a>
+    </div>
+    </header>
+       
+        <form class="form" method="post" action="php/telegram_hopeless.php">
+            <div class="deliverypage">
+                <h2>Choose size</h2>
+                <select name="size" id="size" style="margin-left: 10px;"required>
+                    <option value="baby">baby</option>
+                    <option value="big">big</option>
+                </select>
+                <h2>Delivery</h2>
+            <div class="form-group">
+                <select name="country" id="country" class="form__select" required>
+                    <label for="" class="form__label">Country</label>
+                    
+                    <option value="UA">Ukraine</option>
+                    <option value="PL">Poland</option>
+                    <option value="GR">Germany</option>
+                    <option value="LT">Lithuania</option>
+                    <option value="CR">Czech Republic</option>
+                    <option value="RM">Romania</option>
+                    <option value="MD">Moldova</option>
+                    <option value="SL">Slovakia</option>
+                    <option value="ES">Estonia</option>
+                    <option value="LA">Latvia</option>
+                    <option value="HN">Hungary</option>
+                    <option value="IT">Italy</option>
+                </select>
+            </div>
+            <div style="display: flex;">
+            <div class="form-group">
+              <input type="text" id="name" name="firstname" placeholder=" " required>
+              <label for="firstname">First name</label>
+            </div>
+            <div class="form-group">
+                <input type="text" id="name" name="lastname" placeholder=" ">
+              <label for="lastname">Last name</label>
+            </div>
+        </div>
+            <div class="form-group">
+              <input type="text" id="post" name="post" placeholder=" " style="width: 497px;" required>
+              <label for="post">Adress or Nova Post office</label>
+            </div>
+            <div style="display: flex;">
+            <div class="form-group">
+                <input type="text" id="city" name="city" placeholder=" " required>
+                <label for="city">City</label>
+            </div>
+            <div class="form-group">
+                <input type="text" id="code" name="code" placeholder=" ">
+                <label for="code">Post code</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="tel" id="tel" name="tel" placeholder=" " style="width: 497px;" required>
+            <label for="tel">Phone</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder=" " style="width: 497px;">
+            <label for="email">Email (only for abroad shipping)</label>
+          </div>
+          
+        <input type="hidden" name="act" value="order">
+          
+          <h2>Contacts for payment</h2>
+          <div class="form-group">
+            <input type="text" id="code" name="code" placeholder=" " style="width: 497px;" required>
+            <label for="code">Your instagram or telegram</label>
+        </div>
+        <p style="font-size: 12px;">Everything about payment is writen on page <a href="payment.html">Payment</a></p>
+        <br>
+
+        <div class="products_page_payment">
+            <img src="imges/hopeless wht.png" alt="" width="150px" height="150px">
+            <p style="margin-top: 30px;">hopeless t-shirt </p>
+            <p style="position: absolute; left: 149px; top: 40px; font-weight: bold;">600 UAH</p>
+            <p style="position: absolute; left: 149px; top: 70px; font-weight: bold;">Shipping</p> 
+            <p style="position: absolute; left: 203px; top: 70px;">(specify at checkout)</p>
+            <p style="position: absolute; left: 149px; top: 120px; font-weight: bold;">Total: 600 UAH</p>
+            <input type="submit" value="Send form" style="position: absolute; left: 10px; top: 228px; background-color: inherit; padding-top:0 ; width: 250px; height: 48px; cursor: pointer;">
+        </div>
+    </div>
+</form>
+ 
+    <footer>
+            <p style="text-align: left; color: white; padding-left: 1%;">All rights reserved kodoku</p>
+        </a>
+    </footer>
+</body>
+
+</html>
